@@ -1,0 +1,48 @@
+.sidebar {
+  background: #828282;
+  padding-right: 0;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  text-align: center;
+  padding: 10px 0 10px;
+}
+
+.sidebar li:last-child {
+  border-bottom: 0;
+}
+
+.sidebar li img {
+  width: 25px;
+  height: 25px;
+  vertical-align: baseline;
+  opacity: 0.4;
+}
+
+.sidebar li.divider {
+  margin: 0;
+  padding: 0;
+  height: 2px;
+  border-bottom: 3px solid #4f4f4f;
+}
+
+.sidebar li.active .progress {
+  background: #929292;
+  height: 5px;
+  margin: 5px auto 0 auto;
+  width: 70%;
+}
+
+.sidebar li.selected {
+  background: #4f4f4f;
+}
+
+.sidebar li.selected img {
+  opacity: 1;
+}

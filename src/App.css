@@ -1,22 +1,33 @@
-.App {
+body {
+  padding: 0;
+  margin: 0;
+  background: #4f4f4f;
+  color: #CCCCCC;
+}
+
+header {
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
   text-align: center;
+  background: #ff008d70;
 }
 
-.App-logo {
-  height: 40vmin;
+header h1 {
+  color: #ccc;
+  font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main {
+  height: 100vh;
 }
 
-.App-link {
-  color: #09d3ac;
+.router-outlet {
+  padding: 10px;
+}
+
+.search-box input {
+  background: #5b5b5b;
+  padding: 10px;
+  opacity: 1;
 }
